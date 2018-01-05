@@ -6,12 +6,21 @@ $headerFont: 'Rock Salt', Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
 
-body {
-    line-height: 1.5;
-    height: 100%;
+html {
     width: 100%;
+    height: 100%;
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
+}
+
+body {
+    line-height: 1.5;
+    overflow: hidden;
+}
+
+#app {
+    margin: 0;
 }
 .navbar {
     background: url('https://cdn.pixabay.com/photo/2015/09/13/20/36/zebra-938706_1280.jpg');
@@ -70,6 +79,8 @@ main {
     }
     .grid-box img {
         width: 100%;
+        min-height: 300px;
+        height: 100%;
     }
 }
 

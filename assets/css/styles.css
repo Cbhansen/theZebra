@@ -4,12 +4,19 @@
   padding: 0;
   box-sizing: border-box; }
 
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; }
+
 body {
   line-height: 1.5;
-  height: 100%;
-  width: 100%;
-  margin: 0px;
-  padding: 0px; }
+  overflow: hidden; }
+
+#app {
+  margin: 0; }
 
 .navbar {
   background: url("https://cdn.pixabay.com/photo/2015/09/13/20/36/zebra-938706_1280.jpg"); }
@@ -55,7 +62,9 @@ main {
     grid-gap: 10px;
     grid-row-gap: 5px; }
   #gallery .grid-box img {
-    width: 100%; }
+    width: 100%;
+    min-height: 300px;
+    height: 100%; }
 
 #about {
   margin: 100px 0;
