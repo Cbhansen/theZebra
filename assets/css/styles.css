@@ -36,7 +36,8 @@ button {
 .jumbotron {
   height: 400px; }
   .jumbotron .the-zebra {
-    font-size: 70px; }
+    font-size: 70px;
+    color: red; }
   .jumbotron h1 {
     font-size: 50px;
     letter-spacing: 5px;
